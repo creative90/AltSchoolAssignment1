@@ -1,0 +1,261 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);           
+
+
+
+*{
+ box-sizing: border-box;
+
+              }
+
+              body {
+                font-size: 12px;
+                font-family: sans-serif;
+                background: #2c3e50;
+                -webkit-font-smoothing: antialiased;
+               
+              }
+			form {
+				/* Just to center the form on the page */
+				margin: 0 auto;
+				width: 400px;
+				/* To see the outline of the form */
+				padding: 1em;
+				border: 1px solid #ccc;
+				border-radius: 1em;
+                color: #ecf0f1;
+                font-family: 'Cherry Swash',cursive;
+                font-size: 16px;
+			}
+
+            .contact{
+
+                font-family: 'Cherry Swash',cursive;
+	            font-size: 23px;
+	            font-weight: bold;
+	            letter-spacing: 2px;
+               color: #2BD6B4; 
+            }
+
+            .go_back_shape {
+                width: 60px;
+                height: 60px;
+                background:  #2BD6B4;
+                color: #fff;
+                box-shadow: 0 0 3px 3px #fff;
+                border-radius: 50%;
+                margin-top: -29px;
+                margin-left: -40px;
+                text-align: center;
+                vertical-align: center;
+                font-family: 'Cherry Swash',cursive;
+                font-size: 28px;
+                font-weight: bold;
+            }
+            .go_back_shape > a {
+                color: #fff;
+                text-decoration: none;
+            }
+			ul {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+			}
+
+			form li + li {
+				margin-top: 1em;
+			}
+
+			label {
+				/* To make sure that all labels have the same size and are properly aligned */
+				display: inline-block;
+				width: 90px;
+				text-align: right;
+			}
+
+			input,
+			textarea {
+				/* To make sure that all text fields have the same font settings By default, textareas have a monospace font */
+				font: 1em sans-serif;
+				/* To give the same size to all text fields */
+				width: 300px;
+				box-sizing: border-box; /* To harmonize the look & feel of text field border */
+				border: 1px solid #999;
+			}
+
+			input:focus,
+			textarea:focus {
+				/* To give a little highlight on active elements */
+				border-color: #000;
+			}
+
+			textarea {
+				/* To properly align multiline text fields with their labels */
+				vertical-align: top;
+				/* To give enough room to type some text */
+				height: 5em;
+			}
+
+			.button {
+				/* To position the buttons to the same position of the text fields */
+				padding-left: 90px;
+				/* same size as the label elements */
+			}
+
+			button {
+				/* This extra margin represent roughly the same space as the space between the labels and their text fields */
+				margin-left: 0.5em;
+            }
+
+            span a{
+                color: #2BD6B4;
+            }
+          
+            footer div ._14{
+          
+              color: #ecf0f1;
+            }
+
+            footer small{
+                color: #ecf0f1;
+
+              }
+
+              .send-button {
+                padding: 6px 40px;
+                color: #fff;
+                background: #2BD6B4;
+                border: 0px;
+                border-radius: 30px;
+                vertical-align: center;
+                font-family: arial;
+                font-size: 17px;
+                box-shadow: 0 0 2px 2px #696868;
+            }
+
+              .send-button:hover {
+                background: transparent;
+                box-shadow: 0px 0px 0px 0px;
+                border: 1px solid #696868;
+                color: #2BD6B4;
+            }
+
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+            p > a:hover{
+                color: #d9d9d9;
+                text-decoration:  underline;
+            }
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                margin:  1% 0 1% 0;
+            }
+            ._12 {
+                font-size: 1.2em;
+            }
+            ._14 {
+                font-size: 1.4em;
+            }
+            ul {
+                padding:0;
+                list-style: none;
+            }
+            .footer-social-icons {
+                width: 350px;
+                display:block;
+                margin: 0 auto;
+            }
+            .social-icon {
+                color: #fff;
+            }
+            ul.social-icons {
+                margin-top: 10px;
+            }
+            .social-icons li {
+                vertical-align: top;
+                display: inline;
+                height: 100px;
+            }
+            .social-icons a {
+                color: #fff;
+                text-decoration: none;
+            }
+            .fa-facebook {
+                padding:10px 14px;
+                -o-transition:.5s;
+                -ms-transition:.5s;
+                -moz-transition:.5s;
+                -webkit-transition:.5s;
+                transition: .5s;
+                background-color: #322f30;
+            }
+            .fa-facebook:hover {
+                background-color: #3d5b99;
+            }
+            .fa-twitter {
+                padding:10px 12px;
+                -o-transition:.5s;
+                -ms-transition:.5s;
+                -moz-transition:.5s;
+                -webkit-transition:.5s;
+                transition: .5s;
+                background-color: #322f30;
+            }
+            .fa-twitter:hover {
+                background-color: #00aced;
+            }
+            .fa-instagram {
+                padding:10px 14px;
+                -o-transition:.5s;
+                -ms-transition:.5s;
+                -moz-transition:.5s;
+                -webkit-transition:.5s;
+                transition: .5s;
+                background-color: #322f30;
+            }
+            .fa-instagram:hover {
+                background-color: #eb8231;
+            }
+            .fa-youtube {
+                padding:10px 14px;
+                -o-transition:.5s;
+                -ms-transition:.5s;
+                -moz-transition:.5s;
+                -webkit-transition:.5s;
+                transition: .5s;
+                background-color: #322f30;
+            }
+            .fa-youtube:hover {
+                background-color: #e64a41;
+            }
+            .fa-linkedin {
+                padding:10px 14px;
+                -o-transition:.5s;
+                -ms-transition:.5s;
+                -moz-transition:.5s;
+                -webkit-transition:.5s;
+                transition: .5s;
+                background-color: #322f30;
+            }
+            .fa-linkedin:hover {
+                background-color: #0073a4;
+            }
+            .fa-google-plus {
+                padding:10px 9px;
+                -o-transition:.5s;
+                -ms-transition:.5s;
+                -moz-transition:.5s;
+                -webkit-transition:.5s;
+                transition: .5s;
+                background-color: #322f30;
+            }
+            .fa-google-plus:hover {
+                background-color: #e25714;
+            }
+		

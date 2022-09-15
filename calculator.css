@@ -1,0 +1,123 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-size: 12px;
+    font-family: sans-serif;
+	background: #2c3e50;
+	
+}
+
+footer{
+	color: #ecf0f1;
+    
+}
+
+footer small span a{
+color: #2BD6B4;
+
+} 
+
+.both-calculator{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+  }
+  
+  /*calculator with table*/
+   table.calculator{
+	 margin-left: auto;
+	 margin-right: auto;
+	 
+  }
+  .cal{
+	padding: 2rem;
+	margin: 4rem;
+	width: 22rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #2BD6B4;
+	border-radius:2rem;
+  }
+  .calculator button, .flex-cal button{
+	  width: 65px;
+	  height: 60px;
+	  background-color: rgb(2, 2, 34);
+	  text-align: center;
+	  border-radius: 2rem;
+	  color: white;
+  }
+  .search {
+	  text-align: center;
+  }
+  .search input{
+	  height: 35px;
+  }
+  .blue button{
+	  background-color: skyblue;
+	  color: white;
+	  font-size:larger;
+	  text-align: center;
+	  border-radius: 2rem;
+	  
+  }
+  button.blue{
+	  background-color: skyblue;
+	  color: white;
+	  font-size:larger;
+	  text-align: center;
+	  border-radius: 2rem;
+  }
+  
+  button.ac{
+	background-color: rgb(228, 49, 49);
+	color: white;
+	font-size:larger;
+	text-align: center;
+	border-radius: 2rem;
+}
+
+.ac button{
+	background-color: rgb(228, 49, 49);
+	color: white;
+	font-size:larger;
+	text-align: center;
+	border-radius: 2rem;
+}
+
+button.equal{
+	background-color: rgb(228, 49, 49);
+	color: white;
+	font-size:larger;
+	text-align: center;
+	border-radius: 2rem;
+}
+
+.equal button{
+	background-color: rgb(228, 49, 49);
+	color: white;
+	font-size:larger;
+	text-align: center;
+	border-radius: 2rem;
+}
+   .heading{
+	  text-align: center;
+	  padding-top: 100px;
+	  color: white;
+  }
+  
+  
+  /*calculator with flexbox*/
+  .second-heading{
+	  text-align: center;
+	  padding-top: 50px;
+	  color: white;
+  }
+  .flex-cal div {
+	  text-align: center;
+	  display: flex;
+	  flex-direction: row;
+  }
+  
